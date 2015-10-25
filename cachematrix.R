@@ -1,5 +1,5 @@
 
-## This function takes a matrix as its argument and sets the inverse matrix to NULL.
+## This function takes a matrix as its argument and sets the inverse matrix variable to NULL.
 ## It then makes public a set of functions which can be used to determine if the inverse
 ## of the matrix was already calculated and cached.
 makeCacheMatrix <- function(x = matrix()) {
